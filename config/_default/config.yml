@@ -1,0 +1,51 @@
+baseURL: "" ## /
+languageCode: en-us
+title: MyNewHugoSite
+theme: "PaperMod"
+
+languages:
+  en:
+    title: My blog
+    weight: 1
+  el:
+    title: El My blog
+    weight: 2
+
+params:
+  # env: production # to enable google analytics, opengraph, twitter-cards and schema.
+  title: ExampleSite
+  description: "ExampleSite description"
+  DateFormat: "January 2, 2006"
+  defaultTheme: auto # dark, light
+  disableThemeToggle: false
+  ShowReadingTime: true
+  ShowShareButtons: true
+  UseHugoToc: true
+
+  socialIcons:
+    - name: twitter
+      url: "https://twitter.com/"
+    - name: linkedin
+      url: "https://linkedin.com"
+
+
+  # profile-mode
+  profileMode:
+    enabled: true # needs to be explicitly set
+    title: ExampleSite
+    subtitle: "This is subtitle"
+    # imageUrl: "..."
+    # imageWidth: 200
+    # imageHeight: 300
+    # imageTitle: my image
+    buttons:
+      - name: Posts
+        url: posts
+      - name: Tags
+        url: tags
+
+
+  # home-info mode
+  homeInfoParams:
+    Title: "Hi there \U0001F44B"
+    Content: Welcome to my blog

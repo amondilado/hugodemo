@@ -1,0 +1,21 @@
+main:
+- identifier: about
+  name: el about name
+  title: el about title
+  url: /about
+  weight: 1
+- identifier: section
+  name: el This is the section
+  title: el section
+  url: /section/
+  weight: 2
+- identifier: posts
+  name: el This is the posts section
+  title: el posts section
+  url: /posts/
+  weight: 3
+- identifier: search
+  name: el This is the search
+  title: el search
+  url: /search
+  weight: 4
